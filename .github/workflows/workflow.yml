@@ -24,4 +24,4 @@ jobs:
          node-version: '17.5.0'
       - name: Install and Build 🔧
         run: |
-            node ./szrmb.js
+            node --experimental-fetch ./szrmb.js
