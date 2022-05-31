@@ -21,7 +21,8 @@ jobs:
       - name: setup Node.js
         uses: actions/setup-node@v1
         with:
-         node-version: '17.5.0'
+         node-version: '16.14.0'
       - name: Install and Build 🔧
         run: |
-            node --experimental-fetch ./szrmb.js
+          npm install
+          node ./szrmb.js
