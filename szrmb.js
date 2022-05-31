@@ -19,7 +19,7 @@ fetch('https://whhm.szjhwjcg.cn/szrmb-red-envelope/szrmb/H5', {
   method: 'POST',
 })
   .then((res) => {
-    return res.json();
+    return res.text();
   })
   .then((res) => {
     console.log(res);
